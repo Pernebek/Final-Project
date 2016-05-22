@@ -1,0 +1,42 @@
+body{
+	background-image : url("pictures/index.jpg");
+}
+p{
+	
+	color: red;
+	font-weight: bold;
+	font-size: 24px ;
+}
+#userin{
+	width: 150px;
+	position:relative;
+	left: 580px;
+	top:280px;
+}
+#passin{
+	width: 150px;
+	position:relative;
+	left: 580px;
+	top:285px;
+}
+
+#log_in{
+	width: 60px;	
+	position:relative;
+	left: 0px;
+	top:0px;
+}
+#register{
+	width: 70px;	
+	position:relative;
+	left: 0px;
+	top: 0px;
+}
+#buttons{
+width: 160px;	
+	position:relative;
+	left: 580px;
+	top: 290px;
+
+}
+

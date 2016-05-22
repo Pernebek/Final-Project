@@ -1,0 +1,158 @@
+body{
+	background-color:#CCCCFF;
+	background-color:#EEEAB7;
+}
+nav .div:hover{
+	background-color:#0066CC;
+}
+a:link{
+	text-decoration:none;
+}
+
+nav .div{
+	text-align:center;
+	display:inline;
+	margin:10px;
+	font-size:16px;
+	/*background-image:url(pictures/button.png);*/
+	background-size:180px 32px;
+	padding:5px;
+	padding-top:3px;
+	padding-left:10px;
+	padding-right:10px;
+	background-repeat: no-repeat;
+	color:#FFFFFF;
+}
+#first_div{
+	margin-left:450px;
+}
+nav{
+	padding-top:8px;
+	min-height:25px;
+	margin-left:180px;
+	width:1000px;
+	background-image:url(pictures/nav.png);
+	
+}
+.left_part{
+	position:absolute;
+	left:180px;
+	/*border:red solid 2px;*/
+	min-width:200px;
+	max-width:200px;
+
+}
+.right_part{
+	position:absolute;
+	left:980px;
+	/*border:green solid 2px;*/
+	min-width:200px;
+	max-width:200px;
+
+}
+
+.main_part{
+	position:absolute;
+	left:380px;
+	min-width:600px;
+	max-width:600px;
+	/*border:blue solid 2px;*/	
+}
+
+.same{
+	min-height:600px;
+}
+.left_nav:hover{
+	background-color:#AEAEFF;
+}
+.left_nav{
+	color:#000099;
+	font-size:16px;
+	font-weight:550;
+	/*border:black solid 2px;*/
+	padding:4px 25px;
+
+	margin-top:10px;
+}
+#avatar{
+	width:160px;
+	height:160px;
+}
+#user_inf{
+	position:absolute;
+	left:200px;
+	top:60px;
+	width:400px;
+	height:100px;
+}
+#post_img{
+	margin-left:100px;
+	width:400px;
+	height:300px;
+}
+#friends_avatar{
+	margin-left:60px;
+	width: 50px;
+	height: 50px;
+}
+#friends_div{
+	width: 600px;
+	height: 50px;
+}
+.change_ava_button{
+	width: 115px;
+}
+.send{
+	background-image: url("pictures/nav.png");
+	position: absolute;
+	left: 450px;
+	margin-top: 10px;
+	margin-right: 0px;
+	padding: 5px;
+	font-family: tahoma;
+	color:white;
+	font-size: 13px;
+	text-align: center;
+}
+.text{
+	height: 50px;
+	width: 200px;
+}
+.submit{
+	background-image: url("pictures/nav.png");
+	color:white;
+	padding: 5px;	
+	width: 100px;
+	height: 30px;
+	/*display: none;*/
+	/*border: red solid 2px;*/
+}
+.news_area{
+	width: 370px;
+	margin-left: 80px;
+	/*border: red solid 2px;*/
+
+}
+#news{	
+	resize: none;
+}
+.share{
+	padding: 5px;
+	width: 100px;
+	height: 20px;
+	color: white;
+	text-align: center;
+	margin-top: 5px;
+	background-image: url("pictures/nav.png");
+}
+.add_photo{
+
+	background-image: url("pictures/nav.png");
+	color:white;
+	margin-left: 50px;
+	padding: 5px;	
+	width: 100px;
+	height: 30px;
+	border: red solid 2px;
+	padding-left: 120px;
+}
